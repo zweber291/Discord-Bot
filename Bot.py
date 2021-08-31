@@ -143,9 +143,6 @@ async def dadjoke(ctx):
 async def dice(ctx, sides : int):
     result = random.randint(1,sides) #Gets random number from 1 to sides specified
     await ctx.send("You rolled a " + str(result) + "!")
-    #...Nice
-    if result == 69:
-        await ctx.send("...Nice.")
 
 #Money shop (WIP)
 # @bot.command()
